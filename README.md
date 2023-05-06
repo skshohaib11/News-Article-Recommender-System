@@ -78,14 +78,14 @@ Figure 1 image shows the different models of one plus phone. If a person is look
 #### It is considered to be one of the very smart recommender systems that work on the similarity between different users and also items that are widely used as an e-commerce website and also online movie websites. It checks about the taste of similar users and does recommendations. 
 #### The similarity is not restricted to the taste of the user moreover there can be consideration of similarity between different items also. The system will give more efficient recommendations if we have a large volume of information about users and items.
 ![image](https://user-images.githubusercontent.com/113972606/236634911-f2b18dbb-dd99-4610-a389-b42e16781ed7.png)
-Figure 2 shows the two different users and their interests along with the similarity between the taste of both the users. It is found that both Jil and Megan have similar tastes so Jill's interest is recommended to Megan and vice versa. 
+#### Figure 2 shows the two different users and their interests along with the similarity between the taste of both the users. It is found that both Jil and Megan have similar tastes so Jill's interest is recommended to Megan and vice versa. 
 This is the way collaborative filtering works. Mainly, there are two approaches used in collaborative filtering stated below;
 #### a) User-based nearest-neighbor collaborative filtering:
 ![image](https://user-images.githubusercontent.com/113972606/236634976-3376d359-2280-4f1e-8183-67d1a0292b60.png)
-Figure 3 shows user-user collaborative filtering where there are three users A, B and C respectively and their interest in fruit. The system finds out the users who have the same sort of taste of purchasing products and similarity between users is computed based upon the purchase behavior. User A and User C are similar because they have purchased similar products.
+#### Figure 3 shows user-user collaborative filtering where there are three users A, B and C respectively and their interest in fruit. The system finds out the users who have the same sort of taste of purchasing products and similarity between users is computed based upon the purchase behavior. User A and User C are similar because they have purchased similar products.
 #### b) Item-based nearest-neighbor collaborative filtering:
 ![image](https://user-images.githubusercontent.com/113972606/236635035-5b32a09e-9d91-4500-9033-82d2641fd5ce.png)
-Figure 4 shows user X, Y, and Z respectively. The system checks the items that are similar to the items the user bought. The similarity between different items is computed based on the items and not the users for the prediction. Users X and Y both purchased items A and B so they are found to have similar tastes.
+#### Figure 4 shows user X, Y, and Z respectively. The system checks the items that are similar to the items the user bought. The similarity between different items is computed based on the items and not the users for the prediction. Users X and Y both purchased items A and B so they are found to have similar tastes.
 
 #### Limitations
   * Enough users required to find a match. To overcome such cold start problems, often hybrid approaches are made use of between CF and Content-based matching.
