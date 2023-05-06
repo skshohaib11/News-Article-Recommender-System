@@ -1,5 +1,4 @@
-# Recommendation of news articles or blog post to users
-Design a recommendation system that can suggest personalized news articles or blog posts to users based on their reading history and interests. The system should be able to learn and adapt to the user's preferences over time and provide relevant and engaging content.
+# Recommendation Systems.
 
 ## What is Recommendation system?
 Recommendation systems are built to predict what users might like, especially when there are lots of choices available. They can explicitly offer those recommendations to users (e.g., Amazon or Netflix, the classic examples), or they might work behind the scenes to choose which content to surface without giving the user a choice.
