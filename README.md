@@ -92,7 +92,8 @@ This is the way collaborative filtering works. Mainly, there are two approaches 
   * Even if there are many users and many items that are to be recommended often, problems can arise of user and rating matrix to be sparse and will become challenging to find out about the users who have rated the same item.
   * The problem in recommending items to the user due to sparsity problems.
   
-
+Refrences:
+https://www.analyticssteps.com/
 
 
  
