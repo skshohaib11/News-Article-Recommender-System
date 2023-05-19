@@ -1,6 +1,7 @@
-pip install -r requirements.txt
-python=3.9
-numpy
-matplotlib
+streamlit
 pandas
-scikit-learn==0.24.2
+numpy
+pickle
+sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import euclidean_distances
+from sklearn.metrics.pairwise import pairwise_distances
