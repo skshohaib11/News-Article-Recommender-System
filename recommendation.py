@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import sklearn
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.metrics.pairwise import pairwise_distances
@@ -10,7 +11,7 @@ from sklearn.metrics.pairwise import pairwise_distances
   
 
 # Load the saved model
-with open(r'C:\Users\sksho\Desktop\ZenteiQ\Work\Web Applicataion\tf-idf Final Model File.pkl', 'rb') as f:
+with open(r'C:\Users\sksho\Desktop\ZenteiQ\Work\Web Applicataion\model_tfidf.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the data
