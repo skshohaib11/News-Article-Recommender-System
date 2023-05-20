@@ -11,13 +11,13 @@ from sklearn.metrics.pairwise import pairwise_distances
   
 
 # Load the saved model
-with open('C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\model_tfidf.pkl', 'rb') as f:
+with open(r'model_tfidf.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the data
 # Declare global variable
 data = None
-file_path = 'C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\model_tfidf.pkl'
+file_path = r'user.zip.pkl'
 def unzip_csv_file(file_path):
     global data  # Declare the variable as global
     with zipfile.ZipFile(file_path, 'r') as zip_ref:
