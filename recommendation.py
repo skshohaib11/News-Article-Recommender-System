@@ -15,7 +15,7 @@ with open('model_tfidf.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the data
-with open('user_data.pkl', 'rb') as f:
+with open('user_data.zip', 'rb') as f:
     data = pickle.load(f)
 
 # Function to calculate Euclidean similarity
