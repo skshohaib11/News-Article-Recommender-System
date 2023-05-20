@@ -16,7 +16,7 @@ with open(r'model_tfidf.pkl', 'rb') as f:
 
 
 # Load the data
-  data = pd.read_csv(r'C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\user_data.csv')
+data = pd.read_csv(r'C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\user_data.csv')
 
 # Function to calculate Euclidean similarity
 def euclidean_similarity(tfidf_matrix, user_index):
