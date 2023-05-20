@@ -11,12 +11,13 @@ from sklearn.metrics.pairwise import pairwise_distances
   
 
 # Load the saved model
-with open(r'model_tfidf.pkl', 'rb') as f:
-  model = pickle.load(f)
+with open('C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\model_tfidf.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 
 # Load the data
-data = pd.read_csv(r'user_data.csv')
+with open('C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\user_data.pkl', 'rb') as f:
+    data = pickle.load(f)
 
 # Function to calculate Euclidean similarity
 def euclidean_similarity(tfidf_matrix, user_index):
