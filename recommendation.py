@@ -29,6 +29,7 @@ def unzip_csv_file(file_path):
 def main():
     global data  # Declare the variable as global
     st.title("News Recommendation Sysytem")
+    st.write("Please Check The Sidebar By clicking On Top Left Bar Arrow.")
 
     # File uploader
     file = st.file_uploader("Upload a ZIP file", type="zip")
@@ -77,7 +78,7 @@ def get_recommendations(user_id, num_recommendations):
 
 # Set up the UI
 st.write("Get Upto 10 Best Recommendations for Your User.")
-st.write("Please Check The Sidebar By clicking On Top Left Bar Arrow.")
+
 
 # Set up the user ID input
 user_id = st.selectbox("Select a user ID", data['user_id'])
