@@ -98,7 +98,7 @@ st.sidebar.title("How Does This Work?")
 
 # Add sidebar options
 st.sidebar.write("* There Are Total 147706 Users In Our Data. Follow the steps below: ")
-st.sidebar.write("* Step 1 - You Have To Load The Zip File Containing The Users Data i.e., user.zip In My Github link below.If the File Is Already Uploaded We Can Skip Step 1.")
+st.sidebar.write("* Step 1 - You Have To Load The Zip File Containing The Users Data i.e., user.zip In My Github link below. If the File Is Already Uploaded We Can Skip Step 1.")
 st.sidebar.write("* Step 2 - You Have To Select A Particular User And Number Of Recommendations Needed For That Particular User.")
 st.sidebar.write("* Step 3 - You Can Select From The Dropdown List Or You can Just Type User_ID In The Format for example user_14401")
 st.sidebar.write("* Step 4 - Hit The Get Recommendations Button To Get The Recommendations.")
