@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import pairwise_distances
   
 
 # Load the saved model
-with open('C:\\Users\\sksho\\Desktop\\ZenteiQ\\Work\\Web Applicataion\\model_tfidf.pkl', 'rb') as f:
+with open(r'model_tfidf.pkl', 'rb') as f:
     model = pickle.load(f)
 
 
