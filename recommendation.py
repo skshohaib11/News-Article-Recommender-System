@@ -28,7 +28,7 @@ def unzip_csv_file(file_path):
 # Streamlit app code
 def main():
     global data  # Declare the variable as global
-    st.title("News Recommendation Sysytem")
+    st.title("News Recommendation System")
     st.write("Please Check The Sidebar By clicking On Top Left Bar Arrow.")
     # Adding a sidebar title
     st.sidebar.title("How Does This Work?")
