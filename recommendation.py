@@ -30,6 +30,19 @@ def main():
     global data  # Declare the variable as global
     st.title("News Recommendation Sysytem")
     st.write("Please Check The Sidebar By clicking On Top Left Bar Arrow.")
+    # Adding a sidebar title
+    st.sidebar.title("How Does This Work?")
+
+    # Add sidebar options
+    st.sidebar.write("* There Are Total 147706 Users In Our Data. Follow the steps below: ")
+    st.sidebar.write("* Step 1 - You Have To Load The Zip File Containing The Users Data i.e., user.zip In My Github link below. If the File Is Already Uploaded We Can Skip Step 1.")
+    st.sidebar.write("* Step 2 - You Have To Select A Particular User And Number Of Recommendations Needed For That Particular User.")
+    st.sidebar.write("* Step 3 - You Can Select From The Dropdown List Or You can Just Type User_ID In The Format for example user_14401")
+    st.sidebar.write("* Step 4 - Hit The Get Recommendations Button To Get The Recommendations.")
+
+
+    st.sidebar.write("Prepared By: Shohaib Shaikh")
+    st.sidebar.markdown("[Github](https://github.com/skshohaib11/Data_Detectives)-----[linkedIn](https://www.linkedin.com/in/shaikh-shohaib-043317251/)")
 
     # File uploader
     file = st.file_uploader("Upload a ZIP file", type="zip")
@@ -92,19 +105,4 @@ if st.button("Get Recommendations"):
     recommendations = recommendations.reset_index(drop=True)  # Reset the index
     st.write("Here are your recommendations:")
     st.table(recommendations)
-
-
-# Adding a sidebar title
-st.sidebar.title("How Does This Work?")
-
-# Add sidebar options
-st.sidebar.write("* There Are Total 147706 Users In Our Data. Follow the steps below: ")
-st.sidebar.write("* Step 1 - You Have To Load The Zip File Containing The Users Data i.e., user.zip In My Github link below. If the File Is Already Uploaded We Can Skip Step 1.")
-st.sidebar.write("* Step 2 - You Have To Select A Particular User And Number Of Recommendations Needed For That Particular User.")
-st.sidebar.write("* Step 3 - You Can Select From The Dropdown List Or You can Just Type User_ID In The Format for example user_14401")
-st.sidebar.write("* Step 4 - Hit The Get Recommendations Button To Get The Recommendations.")
-
-
-st.sidebar.write("Prepared By:")
-st.sidebar.write("Shohaib Shaikh")
-st.sidebar.markdown("[Github](https://github.com/skshohaib11/Data_Detectives)-----[linkedIn](https://www.linkedin.com/in/shaikh-shohaib-043317251/)") 
+ 
