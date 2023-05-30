@@ -1,4 +1,4 @@
-# News Articles And Blog Post Recommendation Sysytem.
+# News Articles And Blog Post Recommendation System.
 
 ## THIS REPOSITORY MAINLY CONSISTS OF FOLLOWING FILES:
 
