@@ -19,7 +19,7 @@
 - Open Terminal In Your IDE.
 - Type "streamlit run file_name.py"
 - For This Repository: streamlit run recommendation.py
-- Web Application Link: [https://skshohaib11-data-detectives-recommendation-dijael.streamlit.app![image]
+- Web Application Link: (https://skshohaib11-data-detectives-recommendation-dijael.streamlit.app/)
 
 ### Requirements:
 - Consists of requirements file for our web application.
