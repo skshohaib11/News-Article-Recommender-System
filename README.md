@@ -15,6 +15,9 @@
 ### WEB APPLICATION FILE:
 - Consists of recommendation.py
 
+### PPT file:
+- consist News articles and blog posts recommendation.pptx file
+
 ### How To Run The Web Application:
 - Open Terminal In Your IDE.
 - Type "streamlit run file_name.py"
