@@ -22,7 +22,12 @@
 - Open Terminal In Your IDE.
 - Type "streamlit run file_name.py"
 - For This Repository: streamlit run recommendation.py
-- Web Application Link: (https://skshohaib11-data-detectives-recommendation-dijael.streamlit.app/)
+
+### How Use Web Application:
+- Visit Web Application Link: (https://skshohaib11-data-detectives-recommendation-dijael.streamlit.app/)
+- Ignore The Error And Upload The user.zip file Which You Can FinD In This Repository.
+- Enter The Fields And Get You Recommendations.
+
 
 ### Requirements:
 - Consists of requirements file for our web application.
