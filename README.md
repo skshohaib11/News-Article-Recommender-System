@@ -25,7 +25,7 @@
 
 ### How Use Web Application:
 - Visit Web Application Link: (https://skshohaib11-data-detectives-recommendation-dijael.streamlit.app/)
-- Ignore The Error And Upload The user.zip file Which You Can FinD In This Repository.
+- Ignore The Error And Upload The user.zip file Which You Can Find In This Repository. (Note: Do Not Change The Zip File Name)
 - Enter The Fields And Get You Recommendations.
 
 
