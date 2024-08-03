@@ -3,5 +3,7 @@ zipfile36
 numpy
 matplotlib
 pandas
-nltk
 scikit-learn
+Flask
+nltk
+pickle-mixin
